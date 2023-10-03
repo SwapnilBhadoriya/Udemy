@@ -1,5 +1,5 @@
 <template>
-    <v-btn>gd</v-btn>
+    <register></register>
 </template>
 
 <style></style>
