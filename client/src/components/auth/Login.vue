@@ -12,9 +12,9 @@
                     class=" text-decoration-underline font-weight-bold">Forgot
                     Password</a></p>
             <hr>
-            <p class="my-4 text-center">Don't have an account <a style="cursor: pointer; color: #6200EA;"
-                    class=" text-decoration-underline font-weight-bold">Sign up
-                </a></p>
+            <p class="my-4 text-center">Don't have an account <router-link to="/register"
+                    style="cursor: pointer; color: #6200EA;" class=" text-decoration-underline font-weight-bold">Sign up
+                </router-link></p>
         </v-sheet>
 
     </div>
