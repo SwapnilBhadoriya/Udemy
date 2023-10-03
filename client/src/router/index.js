@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-const routes = [];
+import Login from "../components/auth/Login.vue";
+
+const routes = [{ path: "/", component: Login }];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),

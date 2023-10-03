@@ -1,5 +1,5 @@
 <template>
-    <v-btn>gd</v-btn>
+    <router-view></router-view>
 </template>
 
 <style></style>
