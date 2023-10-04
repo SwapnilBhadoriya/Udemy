@@ -9,7 +9,7 @@
         <v-btn color="purple-darken-4" type="submit" block class="submit mt-2 font-weight-bold">Register Now</v-btn>
       </v-form>
       <hr class="ma-4">
-      <p class="my-4 text-center">Already have an account <router-link to="/" style="cursor: pointer; color: #6200EA;"
+      <p class="my-4 text-center">Already have an account ? <router-link to="/" style="cursor: pointer; color: #6200EA;"
           class=" text-decoration-underline font-weight-bold">Login
         </router-link></p>
     </v-sheet>

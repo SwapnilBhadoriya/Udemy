@@ -84,4 +84,18 @@ CREATE TABLE Reviews(
     created_at TIMESTAMP Default now(),
     FOREIGN KEY(user_id) REFERENCES Users(id) ON DELETE CASCADE,
     FOREIGN KEY(course_id) REFERENCES Courses(id) ON DELETE CASCADE
-)
+);
+
+-- DROP TABLE IF EXISTS Categories;
+CREATE TABLE Categories(
+    id INT Auto_Increment Primary Key,
+    name VARCHAR(255)
+);
+
+-- DROP TABLE IF EXISTS CourseCategory;
+CREATE TABLE CourseCategory(
+    course_id INT,
+    category_id INT,
+    FOREIGN KEY(course_id) REFERENCES Courses(id) ON DELETE CASCADE,
+    FOREIGN KEY(category_id) REFERENCES Categories(id) ON DELETE CASCADE
+);
